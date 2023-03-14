@@ -1,0 +1,7 @@
+def add_greetings(names):
+  lista = []
+  for name in names:
+    lista.append('Hello, ' + name)
+  return lista
+
+print(add_greetings(["Owen", "Max", "Sophie"]))
