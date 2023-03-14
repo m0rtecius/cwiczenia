@@ -1,0 +1,17 @@
+def przypominajka(data):
+    if 20230415 < data:
+        return "Jest przejebane."
+    elif 20230415 == data:
+        return "Ostatnia chwila na wysłanie!"
+    elif 20230414 == data:
+        return "Już jutro deadline!"
+    elif 20230414 > data > 20230331:
+        return "Zostało mało czasu, tylko " + str(20230415 - data) + " dni!"
+    elif 20230314 < data <= 20230331:
+        return "Nadal sporo czasu, pograj w brydża albo coś xD"
+    else:
+        return "Albo data jest w złym formacie, albo wpisałaś jeden z minionych dni :P"
+
+print('Wpisz datę w formacie rokmiesiącdzień, np. 20000101 dla pierwszego stycznia 2000 roku')
+print('Użyj komendy "data = XXXXXXXX", np. data = 20000101')
+print('Następnie włącz program, wpisując w konsolę "przypominajka(data)"')
