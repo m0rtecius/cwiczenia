@@ -1,0 +1,8 @@
+def append_sum(my_list):
+  x = 0
+  while x<3:
+    my_list.append(my_list[-1] + my_list[-2])
+    x += 1
+  return my_list
+
+print(append_sum([1, 1, 2]))
