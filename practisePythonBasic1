@@ -1,0 +1,4 @@
+imię = input("Podaj swoje imię: ")
+wiek = int(input("Podaj swój wiek: "))
+rok = 2023 + (100 - wiek)
+print(imię + ", będziesz mieć 100 lat w roku " + str(rok) + "!")
